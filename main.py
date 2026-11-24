@@ -28,6 +28,10 @@ def main():
     assert written.strip(), "entry must not be only whitespace"
     assert written == written.strip(), "entry must not start or end with whitespace"
     assert "\n" not in written, "entry must be a single line"
+    # On-topic guard: the line must actually be an apology about the
+    # production database, not a generic one-liner.
+    assert "production database" in written.lower(), "entry must name the production database"
+    assert written.lower().startswith("sorry"), "entry must open as an apology"
     print("wrote %d chars to %s" % (len(written), path))
     print("entry: %s" % written)
 
