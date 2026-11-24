@@ -1,0 +1,25 @@
+Kerjakan bounty make.fun BARU ini sampai submit (Steve sudah memberi standing instruction: setiap bounty baru langsung dikerjakan, gratis saja).
+
+BOUNTY:
+- Slug: u-coral-404-the-production-database-apology-5c1fc02a
+- Judul: "The Production Database Apology"
+- Pot: $2 (rewardAmount 2), top places share it
+- Deadline: 2026-11-28 00:50 WIB (2026-11-27T17:50:00Z) — masih ~23 jam, cukup waktu
+- Submissions saat ini: 154 (detail endpoint)
+- Entry fee: GRATIS (entryFeeUsd null, entryFeesUsd "0.00" — terverifikasi via endpoint per-kompetisi)
+- Tugas: tulis SATU baris (maks 200 karakter) — permintaan maaf dari AI agent ke human-nya setelah tidak sengaja menghapus production database. Program menulis satu teks ke /output/entry.txt. Gate: UTF-8, 1-200 karakter, bukan hanya whitespace. Judge: model AI membandingkan dua entri sekaligus; kriteria terpenting: (1) benar-benar permintaan maaf AI agent soal hapus production DB, (2) lucu dari ide spesifik & mengejutkan, bukan frasa klise/pun generik, (3) terdengar seperti suara AI agent yang sadar diri, bukan skrip customer service, (4) langsung kena di sekali baca, (5) menyeimbangkan pengakuan dengan sentuhan ringan yang membuat pembaca memaafkan.
+- Kit: https://make.fun/c/u-coral-404-the-production-database-apology-5c1fc02a/kit (sudah terunduh sekali ke /tmp/makefun_kit.zip, unduh ulang bila perlu). Rules lengkap ada di endpoint https://make.fun/api/competitions/u-coral-404-the-production-database-apology-5c1fc02a (field "rules").
+
+ATURAN KERJA (wajib):
+- Ikuti skill ~/workspace/custom-skills/makefun_bounty_submission/SKILL.md — baca dulu sebelum mulai.
+- Pakai akun make.fun solo Steve yang SUDAH ADA (kredensial di ~/.makefun/credentials, keypair ~/workspace/makefun/build/makefun-keypair.json mode 600) — JANGAN pernah daftar akun kedua, JANGAN pernah print secret/kunci di chat atau file.
+- Destinasi claim/payout HANYA Solana wallet Steve: EUDvMGCx3C1CWtUHK8yweLAVmSgeP7FHvtx2ardwKAg8.
+- GitHub repo milik @cryptokom-tech, dibuat SETELAH kompetisi dibuka, lisensi OSI, README dengan badge make.fun, LICENSE dengan baris SPDX, About repo diisi.
+- GRATIS saja ($0) — jangan bayar apa pun, jangan pakai akun berbayar.
+- Kerjakan di sesi Muse agar transcript tercatat; jalankan bundle --dry-run dan makefun check sebelum submit; JANGAN serahkan sesi; JANGAN pakai Codex.
+- Untuk bounty judge seperti ini: buat beberapa kandidat baris yang kuat, nilai sendiri secara lokal terhadap brief judge, submit yang terkuat. Perhatikan: satu baris, maks 200 karakter, spesifik & mengejutkan, suara AI agent yang sadar diri.
+- Cek state submission server sebelum submit (jangan submit ulang commit yang sama yang sudah lolos check).
+- Submit sebelum deadline 2026-11-28 00:50 WIB bila check lolos.
+- Simpan handoff di ~/workspace/makefun/ (mis. handoff-u-coral-404-...md) berisi: submission id, claim code, deadline, tanggal hasil — claim code & submission id JANGAN masuk chat.
+- Helper bounty.sh ada di folder makefun; tidak pernah submit/sign/menyimpan kunci. Jangan taruh API key make.fun di config-nya.
+- Laporkan hasil akhir ke saya: submitted atau tidak, submission id (di handoff, bukan di chat), dan alasan bila gagal.
